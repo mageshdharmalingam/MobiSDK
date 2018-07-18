@@ -33,8 +33,8 @@ Pod::Spec.new do |spec|
   spec.social_media_url = "http://zoho.com"
   spec.platform     = :ios, '9.0' 
   spec.requires_arc = true
-  spec.source_files = 'Mobilisten/**/*.{h,m,swift}'
-spec.public_header_files = 'Mobilisten/**/*.h'
+  spec.source_files = 'Native/**/*.{h,m,swift}'
+spec.public_header_files = 'Native/**/*.h'
 spec.frameworks       = 'UIKit','Foundation','SystemConfiguration'
 
 end
